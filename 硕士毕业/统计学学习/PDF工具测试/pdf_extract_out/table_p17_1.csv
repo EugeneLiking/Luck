@@ -1,0 +1,10 @@
+﻿Basicconceptsintimeseries RDemonstration,
+"Testing individual autocorrelation
+• H : ρ = 0 vs H : ρ (cid:54)= 0.
+0 j 1 j
+• For any lag j,
+(cid:18) 1 (cid:19) √
+ρˆ ∼ N 0, or Tρˆ ∼ N(0,1).
+j j
+T",
+YiDing,Week6:TimeSeriesModels(I)

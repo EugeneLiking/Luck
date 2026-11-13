@@ -1,0 +1,13 @@
+# 由 skill 同步脚本生成的联接，不入库（根层/领域挂载的条目由 sync-skills.ps1 自动维护在文件末尾）
+.claude/skills
+# skill 携带的可重下二进制（llama-server 等）不入库
+.agents/skills/*/tools/
+
+Thumbs.db
+desktop.ini
+.DS_Store
+
+# >>> sync-skills 根层挂载（自动生成，勿手改）
+.agents/skills/pdf-to-markdown
+.agents/skills/pdf-extract
+# <<< sync-skills

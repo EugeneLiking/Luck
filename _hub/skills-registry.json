@@ -1,0 +1,282 @@
+{
+  "version": 1,
+  "_说明": "全部 skill 的登记表。改动后运行 _hub\\sync-skills.ps1。skills.<层>.<名字>：source=来源仓库；claudeVariant=true 表示 .agents\\skills-claude 下有 Claude 专用版；mountTo（仅根层）=挂到哪些领域，\"*\"=全部领域；note=用途或本地改动说明。domains.<领域>.projects=该领域下的项目。userLevelAcknowledged=已确认允许留在用户级目录的 skill。",
+  "userLevelAcknowledged": [],
+  "domains": {
+    "职业规划与技能提升": {
+      "projects": []
+    },
+    "硕士毕业": {
+      "projects": [
+        "毕业论文",
+        "统计学学习"
+      ]
+    }
+  },
+  "skills": {
+    "root": {},
+    "职业规划与技能提升": {},
+    "硕士毕业/毕业论文": {
+      "academic-humanizer": {
+        "source": "AIScientists-Dev/academic-humanizer",
+        "note": "2026-11-02 安装（论文写作 skill 套件）"
+      },
+      "anti-defensive-writing": {
+        "source": "Adkid-Zephyr/anti-defensive-writing-Skill",
+        "note": "2026-11-02 安装（论文写作 skill 套件）"
+      },
+      "anti-defensive-writing-en": {
+        "source": "Adkid-Zephyr/anti-defensive-writing-Skill",
+        "note": "2026-11-02 安装（论文写作 skill 套件）"
+      },
+      "benchmark-paper-template": {
+        "source": "HKUSTDial/Supervisor-Skills",
+        "note": "2026-11-02 安装（论文写作 skill 套件）"
+      },
+      "deep-research": {
+        "source": "HKUSTDial/Supervisor-Skills",
+        "note": "2026-11-02 安装（论文写作 skill 套件）"
+      },
+      "drawio-reconstruction": {
+        "source": "HKUSTDial/Supervisor-Skills",
+        "note": "2026-11-02 安装（论文写作 skill 套件）"
+      },
+      "figure-designer": {
+        "source": "HKUSTDial/Supervisor-Skills",
+        "note": "2026-11-02 安装（论文写作 skill 套件）"
+      },
+      "get-paper": {
+        "source": "Lylll9436/Paper-Polish-Workflow-skill",
+        "note": "2026-11-02 安装（论文写作 skill 套件）；本地改动：复制上游共享 references/ 进本 skill 目录使其自包含"
+      },
+      "humanizer": {
+        "source": "blader/humanizer",
+        "note": "2026-11-02 安装（论文写作 skill 套件）"
+      },
+      "humanizer-zh": {
+        "source": "op7418/Humanizer-zh",
+        "note": "2026-11-02 安装（论文写作 skill 套件）"
+      },
+      "idea-evaluator": {
+        "source": "HKUSTDial/Supervisor-Skills",
+        "note": "2026-11-02 安装（论文写作 skill 套件）"
+      },
+      "intro-drafter": {
+        "source": "HKUSTDial/Supervisor-Skills",
+        "note": "2026-11-02 安装（论文写作 skill 套件）"
+      },
+      "nature-academic-search": {
+        "source": "Yuan1z0825/nature-skills",
+        "note": "2026-11-02 安装（论文写作 skill 套件）"
+      },
+      "nature-citation": {
+        "source": "Yuan1z0825/nature-skills",
+        "note": "2026-11-02 安装（论文写作 skill 套件）"
+      },
+      "nature-data": {
+        "source": "Yuan1z0825/nature-skills",
+        "note": "2026-11-02 安装（论文写作 skill 套件）"
+      },
+      "nature-downloader": {
+        "source": "Yuan1z0825/nature-skills",
+        "note": "2026-11-02 安装（论文写作 skill 套件）"
+      },
+      "nature-experiment-log": {
+        "source": "Yuan1z0825/nature-skills",
+        "note": "2026-11-02 安装（论文写作 skill 套件）"
+      },
+      "nature-figure": {
+        "source": "Yuan1z0825/nature-skills",
+        "note": "2026-11-02 安装（论文写作 skill 套件）"
+      },
+      "nature-image2ppt": {
+        "source": "Yuan1z0825/nature-skills",
+        "note": "2026-11-02 安装（论文写作 skill 套件）"
+      },
+      "nature-literature-pipeline": {
+        "source": "Yuan1z0825/nature-skills",
+        "note": "2026-11-02 安装（论文写作 skill 套件）"
+      },
+      "nature-paper-card": {
+        "source": "Yuan1z0825/nature-skills",
+        "note": "2026-11-02 安装（论文写作 skill 套件）"
+      },
+      "nature-paper-to-patent": {
+        "source": "Yuan1z0825/nature-skills",
+        "note": "2026-11-02 安装（论文写作 skill 套件）"
+      },
+      "nature-paper-trans": {
+        "source": "Yuan1z0825/nature-skills",
+        "note": "2026-11-02 安装（论文写作 skill 套件）"
+      },
+      "nature-paper-xray": {
+        "source": "Yuan1z0825/nature-skills",
+        "note": "2026-11-02 安装（论文写作 skill 套件）"
+      },
+      "nature-paper2ppt": {
+        "source": "Yuan1z0825/nature-skills",
+        "note": "2026-11-02 安装（论文写作 skill 套件）"
+      },
+      "nature-paper2word": {
+        "source": "Yuan1z0825/nature-skills",
+        "note": "2026-11-02 安装（论文写作 skill 套件）"
+      },
+      "nature-polishing": {
+        "source": "Yuan1z0825/nature-skills",
+        "note": "2026-11-02 安装（论文写作 skill 套件）"
+      },
+      "nature-proposal-writer": {
+        "source": "Yuan1z0825/nature-skills",
+        "note": "2026-11-02 安装（论文写作 skill 套件）；本地改名：name 由 researchwrite 改为 nature-proposal-writer（对齐文件夹名）"
+      },
+      "nature-reader": {
+        "source": "Yuan1z0825/nature-skills",
+        "note": "2026-11-02 安装（论文写作 skill 套件）"
+      },
+      "nature-ref-verifier": {
+        "source": "Yuan1z0825/nature-skills",
+        "note": "2026-11-02 安装（论文写作 skill 套件）"
+      },
+      "nature-response": {
+        "source": "Yuan1z0825/nature-skills",
+        "note": "2026-11-02 安装（论文写作 skill 套件）"
+      },
+      "nature-reviewer": {
+        "source": "Yuan1z0825/nature-skills",
+        "note": "2026-11-02 安装（论文写作 skill 套件）"
+      },
+      "nature-shared": {
+        "source": "Yuan1z0825/nature-skills",
+        "note": "2026-11-02 安装（论文写作 skill 套件）"
+      },
+      "nature-social-science": {
+        "source": "Yuan1z0825/nature-skills",
+        "note": "2026-11-02 安装（论文写作 skill 套件）"
+      },
+      "nature-statistics": {
+        "source": "Yuan1z0825/nature-skills",
+        "note": "2026-11-02 安装（论文写作 skill 套件）"
+      },
+      "nature-writing": {
+        "source": "Yuan1z0825/nature-skills",
+        "note": "2026-11-02 安装（论文写作 skill 套件）"
+      },
+      "paper-polish": {
+        "source": "HKUSTDial/Supervisor-Skills",
+        "note": "2026-11-02 安装（论文写作 skill 套件）"
+      },
+      "paper-polish-workflow": {
+        "source": "Lylll9436/Paper-Polish-Workflow-skill",
+        "note": "2026-11-02 安装（论文写作 skill 套件）；本地改动：复制上游共享 references/ 进本 skill 目录使其自包含"
+      },
+      "paper-writer": {
+        "source": "HKUSTDial/Supervisor-Skills",
+        "note": "2026-11-02 安装（论文写作 skill 套件）"
+      },
+      "ppw-abstract": {
+        "source": "Lylll9436/Paper-Polish-Workflow-skill",
+        "note": "2026-11-02 安装（论文写作 skill 套件）；本地改名：name 由 ppw:abstract 改为 ppw-abstract（Windows 文件夹名不能含冒号）；本地改动：复制上游共享 references/ 进本 skill 目录使其自包含"
+      },
+      "ppw-caption": {
+        "source": "Lylll9436/Paper-Polish-Workflow-skill",
+        "note": "2026-11-02 安装（论文写作 skill 套件）；本地改名：name 由 ppw:caption 改为 ppw-caption（Windows 文件夹名不能含冒号）；本地改动：复制上游共享 references/ 进本 skill 目录使其自包含"
+      },
+      "ppw-cover-letter": {
+        "source": "Lylll9436/Paper-Polish-Workflow-skill",
+        "note": "2026-11-02 安装（论文写作 skill 套件）；本地改名：name 由 ppw:cover-letter 改为 ppw-cover-letter（Windows 文件夹名不能含冒号）；本地改动：复制上游共享 references/ 进本 skill 目录使其自包含"
+      },
+      "ppw-de-ai": {
+        "source": "Lylll9436/Paper-Polish-Workflow-skill",
+        "note": "2026-11-02 安装（论文写作 skill 套件）；本地改名：name 由 ppw:de-ai 改为 ppw-de-ai（Windows 文件夹名不能含冒号）；本地改动：复制上游共享 references/ 进本 skill 目录使其自包含"
+      },
+      "ppw-experiment": {
+        "source": "Lylll9436/Paper-Polish-Workflow-skill",
+        "note": "2026-11-02 安装（论文写作 skill 套件）；本地改名：name 由 ppw:experiment 改为 ppw-experiment（Windows 文件夹名不能含冒号）；本地改动：复制上游共享 references/ 进本 skill 目录使其自包含"
+      },
+      "ppw-literature": {
+        "source": "Lylll9436/Paper-Polish-Workflow-skill",
+        "note": "2026-11-02 安装（论文写作 skill 套件）；本地改名：name 由 ppw:literature 改为 ppw-literature（Windows 文件夹名不能含冒号）；本地改动：复制上游共享 references/ 进本 skill 目录使其自包含"
+      },
+      "ppw-logic": {
+        "source": "Lylll9436/Paper-Polish-Workflow-skill",
+        "note": "2026-11-02 安装（论文写作 skill 套件）；本地改名：name 由 ppw:logic 改为 ppw-logic（Windows 文件夹名不能含冒号）；本地改动：复制上游共享 references/ 进本 skill 目录使其自包含"
+      },
+      "ppw-polish": {
+        "source": "Lylll9436/Paper-Polish-Workflow-skill",
+        "note": "2026-11-02 安装（论文写作 skill 套件）；本地改名：name 由 ppw:polish 改为 ppw-polish（Windows 文件夹名不能含冒号）；本地改动：复制上游共享 references/ 进本 skill 目录使其自包含"
+      },
+      "ppw-repo-to-paper": {
+        "source": "Lylll9436/Paper-Polish-Workflow-skill",
+        "note": "2026-11-02 安装（论文写作 skill 套件）；本地改名：name 由 ppw:repo-to-paper 改为 ppw-repo-to-paper（Windows 文件夹名不能含冒号）；本地改动：复制上游共享 references/ 进本 skill 目录使其自包含"
+      },
+      "ppw-reviewer-simulation": {
+        "source": "Lylll9436/Paper-Polish-Workflow-skill",
+        "note": "2026-11-02 安装（论文写作 skill 套件）；本地改名：name 由 ppw:reviewer-simulation 改为 ppw-reviewer-simulation（Windows 文件夹名不能含冒号）；本地改动：复制上游共享 references/ 进本 skill 目录使其自包含"
+      },
+      "ppw-team": {
+        "source": "Lylll9436/Paper-Polish-Workflow-skill",
+        "note": "2026-11-02 安装（论文写作 skill 套件）；本地改名：name 由 ppw:team 改为 ppw-team（Windows 文件夹名不能含冒号）；本地改动：复制上游共享 references/ 进本 skill 目录使其自包含"
+      },
+      "ppw-translation": {
+        "source": "Lylll9436/Paper-Polish-Workflow-skill",
+        "note": "2026-11-02 安装（论文写作 skill 套件）；本地改名：name 由 ppw:translation 改为 ppw-translation（Windows 文件夹名不能含冒号）；本地改动：复制上游共享 references/ 进本 skill 目录使其自包含"
+      },
+      "ppw-update": {
+        "source": "Lylll9436/Paper-Polish-Workflow-skill",
+        "note": "2026-11-02 安装（论文写作 skill 套件）；本地改名：name 由 ppw:update 改为 ppw-update（Windows 文件夹名不能含冒号）；本地改动：复制上游共享 references/ 进本 skill 目录使其自包含；改写跨级链接 ../../references/ 为 references/"
+      },
+      "ppw-visualization": {
+        "source": "Lylll9436/Paper-Polish-Workflow-skill",
+        "note": "2026-11-02 安装（论文写作 skill 套件）；本地改名：name 由 ppw:visualization 改为 ppw-visualization（Windows 文件夹名不能含冒号）；本地改动：复制上游共享 references/ 进本 skill 目录使其自包含"
+      },
+      "pre-submission-reviewer": {
+        "source": "HKUSTDial/Supervisor-Skills",
+        "note": "2026-11-02 安装（论文写作 skill 套件）"
+      },
+      "rebuttal-guidance": {
+        "source": "HKUSTDial/Supervisor-Skills",
+        "note": "2026-11-02 安装（论文写作 skill 套件）"
+      },
+      "scientific-visualization": {
+        "source": "HughYau/AcademicForge (skills/scientific-visualization)",
+        "note": "2026-11-02 安装（论文写作 skill 套件）"
+      },
+      "tech-paper-template": {
+        "source": "HKUSTDial/Supervisor-Skills",
+        "note": "2026-11-02 安装（论文写作 skill 套件）"
+      },
+      "vibe-research-workflow": {
+        "source": "HKUSTDial/Supervisor-Skills",
+        "note": "2026-11-02 安装（论文写作 skill 套件）"
+      }
+    },
+    "硕士毕业/统计学学习": {
+      "handwriting-ocr": {
+        "source": "自研封装 datalab-to/surya (21,569★) + ggml-org/llama.cpp",
+        "note": "2026-11-02 安装（统计课程）：教授手写内容识别 + PDF 批注差分裁剪；surya 2.x VLM 经 llama.cpp CPU 后端（tools/llama-server.exe b12034），GGUF 经 hf-mirror 下载。"
+      },
+      "math-symbol-ocr": {
+        "source": "自研封装 lukas-blecher/LaTeX-OCR (pix2tex 16,602★)",
+        "note": "2026-11-02 安装（统计课程）：数学符号/公式图像→LaTeX；torch CPU + pix2tex 0.1.4，模型经 hf-mirror 下载。实测对印刷体公式有效、对手写会幻觉（见 SKILL.md）。"
+      },
+      "r-econometrics": {
+        "source": "自研封装 R 4.6.2 (winget RProject.R) + CRAN 包：FinTS/tseries/urca/forecast/rugarch/ggplot2/xts/zoo/moments/lmtest",
+        "note": "BECO7010 课程 R 计量工具链：按大纲分周模板（描述统计/回归/时间序列/GARCH/VaR/因子模型）"
+      },
+      "symbolic-math": {
+        "source": "自研封装 sympy/sympy (15,068★, BSD)",
+        "note": "符号数学推导：化简/求导/积分/级数/解方程/矩阵，讲义公式验证"
+      }
+    },
+    "硕士毕业": {
+      "pdf-extract": {
+        "source": "自研封装 PyMuPDF(11,055★) + pdfplumber(10,871★)",
+        "note": "PDF 局部精准提取：按页文本/表格 CSV/图片/目录；领域共享"
+      },
+      "pdf-to-markdown": {
+        "source": "自研封装 pymupdf4llm（PyMuPDF 官方 LLM 扩展，11,055★）",
+        "note": "文本层 PDF 整篇转 Markdown，省 token 阅读；领域共享"
+      }
+    }
+  }
+}

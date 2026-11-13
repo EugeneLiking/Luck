@@ -1,0 +1,9 @@
+﻿Basicconceptsintimeseries RDemonstration,
+"Sample mean and sample variance
+T T
+1 (cid:88) 1 (cid:88)
+y¯ = y , σˆ2 = (y −y¯)2.
+t t
+T T −1
+t=1 t=1",
+YiDing,Week6:TimeSeriesModels(I)

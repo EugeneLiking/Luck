@@ -1,0 +1,7 @@
+﻿Basicconceptsintimeseries RDemonstration,
+"Time series plot
+Suppose we have time series y as plotted in the follow graph, where
+t
+we calculate mean (average) by using every 20 data points and 50
+data points.",
+YiDing,Week6:TimeSeriesModels(I)

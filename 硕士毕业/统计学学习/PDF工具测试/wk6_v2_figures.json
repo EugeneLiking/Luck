@@ -1,0 +1,32 @@
+[
+  {
+    "page": 5,
+    "image": "wk6_v2_images/page-05.png",
+    "text": "Basic concepts in time series\nR Demonstration\nTime series plot\nSuppose we have time series yt as plotted in the follow graph, where\nwe calculate mean (average) by using every 20 data points and 50\ndata points.\nYi Ding\nWeek 6: Time Series Models (I)"
+  },
+  {
+    "page": 6,
+    "image": "wk6_v2_images/page-06.png",
+    "text": "Basic concepts in time series\nR Demonstration\nTime series plot (cont’)\nSimilarly, we calculate standard deviation by using every 20 data\npoints and 50 data points.\nYi Ding\nWeek 6: Time Series Models (I)"
+  },
+  {
+    "page": 10,
+    "image": "wk6_v2_images/page-10.png",
+    "text": "Basic concepts in time series\nR Demonstration\nStationary time series plot\nYi Ding\nWeek 6: Time Series Models (I)"
+  },
+  {
+    "page": 11,
+    "image": "wk6_v2_images/page-11.png",
+    "text": "Basic concepts in time series\nR Demonstration\nNonstationary (wandering) time series plot\nYi Ding\nWeek 6: Time Series Models (I)"
+  },
+  {
+    "page": 12,
+    "image": "wk6_v2_images/page-12.png",
+    "text": "Basic concepts in time series\nR Demonstration\nNonstationary (trending) time series plot\nYi Ding\nWeek 6: Time Series Models (I)"
+  },
+  {
+    "page": 19,
+    "image": "wk6_v2_images/page-19.png",
+    "text": "Basic concepts in time series\nR Demonstration\nThe sample autocorrelation function plots ˆρj against j, with the 95%\nconﬁdent interval (see the blue lines)\nYi Ding\nWeek 6: Time Series Models (I)"
+  }
+]

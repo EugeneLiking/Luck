@@ -1,0 +1,12 @@
+﻿Basicconceptsintimeseries RDemonstration,
+"Stationarity
+• Strict stationarity: distributions are time-invariant.
+• Weak stationarity:
+• E[y ]=µ forallt
+t
+• Var(y )=σ2 forallt
+t
+• Cov(y ,y )=γ dependsonj andnotont
+t t−j j
+We will mainly focus on “weak stationary time series"".",
+YiDing,Week6:TimeSeriesModels(I)

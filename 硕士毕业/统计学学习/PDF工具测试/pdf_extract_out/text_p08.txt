@@ -1,0 +1,12 @@
+Basic concepts in time series
+R Demonstration
+Stationarity
+• Strict stationarity: distributions are time-invariant.
+• Weak stationarity:
+• E [yt] = µ
+for all t
+• Var (yt) = σ2 for all t
+• Cov (yt, yt−j) = γj depends on j and not on t
+We will mainly focus on “weak stationary time series".
+Yi Ding
+Week 6: Time Series Models (I)

@@ -1,0 +1,22 @@
+﻿Basicconceptsintimeseries RDemonstration,
+"Testing multiple autocorrelation (the portmanteau
+test).
+• H : ρ = ··· = ρ = 0 vs H : ρ (cid:54)= 0.
+0 1 m 1 j
+(cid:16)√ (cid:17)2
+• Tρˆ2 = Tρˆ ∼ χ2.
+j j 1
+• Construct the Box-Pierce Q-statistic:
+m
+(cid:88)
+Q (m) = T ρˆ2 ∼ χ2
+BP j m
+j=1
+• A modification of Q is the Ljung-Box Q-statistic:
+BP
+m (cid:18) (cid:19)
+(cid:88) 1
+Q (m) = T(T +2) ρˆ2 ∼ χ2.
+LB T −j j m
+j=1",
+YiDing,Week6:TimeSeriesModels(I)

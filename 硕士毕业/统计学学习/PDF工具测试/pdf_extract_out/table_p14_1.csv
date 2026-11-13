@@ -1,0 +1,15 @@
+﻿Basicconceptsintimeseries RDemonstration,
+"Remarks on autocorrelation
+• Note that it is because of stationarity, that the autocorrelation
+(autocovariance) is meaningful.
+• For stationary time series, the relation (correlation) among y
+t
+does not depend on when we observed them, but only depends
+on the amount of time in between. For example, the correlation
+between (Y ,Y ) is the same as the correlation between
+Jan Mar
+(Y ,Y ), and the correlation between (y ,y ) is the same as
+Dec Feb 1 6
+the correlation of (y ,y ).
+24 29",
+YiDing,Week6:TimeSeriesModels(I)

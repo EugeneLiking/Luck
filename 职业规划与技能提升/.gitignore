@@ -1,0 +1,9 @@
+# 由 skill 同步脚本生成的联接，不入库（根层挂载的条目由 sync-skills.ps1 自动维护在文件末尾）
+.claude/skills
+
+Thumbs.db
+desktop.ini
+.DS_Store
+
+# >>> sync-skills 根层挂载（自动生成，勿手改）
+# <<< sync-skills

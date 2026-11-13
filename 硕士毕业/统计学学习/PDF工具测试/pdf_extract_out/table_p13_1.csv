@@ -1,0 +1,23 @@
+﻿Basicconceptsintimeseries RDemonstration,
+"Autocorrelation
+(cid:0) (cid:1)
+• γ = Cov y ,y is called the lag-j autocovariance. In particular
+j t t−j
+γ = Cov(y ,y ) = Var(y ) = σ2.
+0 t t−0 t
+• The autocorrelation is defined by
+(cid:0) (cid:1)
+Cov y ,y γ
+(cid:0) (cid:1) t t−j j
+ρ = Corr y ,y = = .
+j t t−j (cid:113)
+(cid:0) (cid:1) γ
+Var(y )Var y 0
+t t−j
+• Sample autocorrelation:
+(cid:80)T (y −y¯) (cid:0) y −y¯ (cid:1)
+t=1+j t t−j
+ρˆ = .
+j (cid:80)T (y −y¯)2
+t=1 t",
+YiDing,Week6:TimeSeriesModels(I)

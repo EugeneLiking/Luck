@@ -1,0 +1,16 @@
+# GitHub 上的 Luck 是技能总库（单仓）。本地 D:\codex\workbuddy work 仍可按领域/项目保留各自的 git。
+
+# 由 sync-skills.ps1 生成的联接，不要提交
+.claude/skills
+.claude/settings.local.json
+Thumbs.db
+desktop.ini
+.DS_Store
+
+# 本地环境与缓存
+.venv/
+**/__pycache__/
+*.pyc
+node_modules/
+.env
+.env.*

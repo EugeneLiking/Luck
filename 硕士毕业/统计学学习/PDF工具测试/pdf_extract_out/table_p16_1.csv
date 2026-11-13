@@ -1,0 +1,11 @@
+﻿Basicconceptsintimeseries RDemonstration,
+"Testing the mean
+1 H 0 : µ = 0 vs H 1 : µ (cid:54)= 0.
+2 Test statistic ( t-ratio):
+y¯
+t =
+(cid:112)
+σˆ2/T
+3 Look up N(0,1) distribution for rejection regions with 10%,
+5%,1% significance levels.",
+YiDing,Week6:TimeSeriesModels(I)
